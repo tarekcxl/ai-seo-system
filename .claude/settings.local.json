@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "mcp__firecrawl__firecrawl_scrape",
+      "Bash(python3 -c \":*)"
+    ]
+  }
+}
