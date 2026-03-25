@@ -1,0 +1,81 @@
+# COMPETITIVE GAP ANALYSIS REPORT: Statistical Power
+
+## 🏆 1. COMPETITOR CONSENSUS (The "Standard")
+*What the top-ranking articles all have in common.*
+
+- **Topic/Feature:** Clear and precise definition of statistical power  
+- **Found In:** 5/5 Competitors  
+- **The Standard:** All competitors define statistical power as the probability of correctly rejecting the null hypothesis when a true effect exists (1 – β). They emphasize its importance in detecting true effects and controlling Type II errors.
+
+- **Topic/Feature:** Explanation of Type I and Type II errors and their relationship with power  
+- **Found In:** 5/5 Competitors  
+- **The Standard:** Every article explains Type I (false positive) and Type II (false negative) errors, illustrating the inverse relationship between alpha (α) and beta (β), how adjusting one affects power, and the importance of balancing these errors.
+
+- **Topic/Feature:** Factors affecting statistical power  
+- **Found In:** 5/5 Competitors  
+- **The Standard:** Consensus on the four main levers affecting power: sample size, effect size (Minimum Effect of Interest), significance level (α), and desired power level. All cover how increasing sample size or effect size boosts power and how reducing α affects power.
+
+- **Topic/Feature:** Guidance on calculating statistical power and sample size  
+- **Found In:** 5/5 Competitors  
+- **The Standard:** All provide methods or references to tools (e.g., G*Power, sample size calculators) for computing power or required sample sizes based on known parameters. They stress pre-study planning for adequate power.
+
+- **Topic/Feature:** Consequences of underpowered tests and testing trade-offs  
+- **Found In:** 5/5 Competitors  
+- **The Standard:** Each article stresses the risks of underpowered studies, including missing true effects, false negatives, and wasted resources, advocating a balance between power, alpha, and practical constraints.
+
+---
+
+## 🔍 2. THE CXL GAP ANALYSIS
+*Specific elements competitors have that CXL is missing.*
+
+- **THE GAP:** Formal mathematical/statistical explanation and formula for power calculation  
+- **EVIDENCE:** Wikipedia article provides detailed analytic and simulation-based mathematical derivations and power formulas; competitor scientific article (PMC) and YouTube video simplify but refer to analogous formal concepts.  
+- **THE RISK:** Advanced readers searching for rigorous statistical foundations or wanting formula-based power calculations may find CXL lacking, potentially losing authority or deeper educational value.
+
+- **THE GAP:** Empirical discipline-specific power benchmarks and meta-analysis data on average power by field  
+- **EVIDENCE:** Wikipedia cites field studies showing real-world power levels in economics, psychology, ecology, political science (median power often below 40%)—absent in CXL.  
+- **THE RISK:** Not addressing common power deficiencies across fields reduces CXL’s appeal for academic or research audiences seeking contextual understanding.
+
+- **THE GAP:** Discussion of Bayesian approaches and post hoc (retrospective) power controversies  
+- **EVIDENCE:** Wikipedia references Bayesian power concepts and critiques of post hoc power calculations; CXL does not cover alternative statistical paradigms or post-study power analysis debates.  
+- **THE RISK:** Lack of content on these topics limits relevance to advanced statisticians or researchers interested in the latest methodological debates.
+
+- **THE GAP:** Visual interactive tools and educational animations  
+- **EVIDENCE:** Competitor interactive visualization (rpsychologist.com) and educational YouTube video (NEJM) explain power dynamically via sliders or animations; CXL uses static images only.  
+- **THE RISK:** Missed engagement opportunity for visual/interactive learners; less likely to retain users or be referenced in educational contexts.
+
+- **THE GAP:** Explicit reliability considerations (e.g., measurement precision) and experimental design impact on power  
+- **EVIDENCE:** Wikipedia discusses variance, measurement reliability, and design efficiency (blocking, experimental setup) affecting power comprehensively; CXL mostly focuses on sample size and effect size.  
+- **THE RISK:** Overlooks nuances in improving power beyond sample size; diminishes usefulness for experimental planners.
+
+- **THE GAP:** Statistical power as test sensitivity (with analogy to diagnostic testing sensitivity/specificity)  
+- **EVIDENCE:** PMC article uniquely discusses power as sensitivity akin to diagnostic test sensitivity, providing a useful intuitive analogy.  
+- **THE RISK:** Missing intuitive framing could limit understanding for medical or clinical research audiences.
+
+---
+
+## 🚀 3. PRIORITIZED ACTION PLAN
+
+### 🔴 HIGH IMPACT (Critical Gaps)
+*Found in 4-5 competitors. Essential for ranking.*
+
+- **Add a section on the formal mathematical/statistical foundation of power**, including formulas for power calculation in hypothesis testing and sample size estimation with illustrative examples.
+- **Incorporate discipline-specific typical power statistics and meta-analysis findings** to contextualize why statistical power matters broadly and highlight common power deficiencies.
+- **Introduce content on Bayesian power concepts and the controversy around post hoc power analysis**, to cover advanced statistical considerations.
+- **Develop or embed interactive power visualizations or animations** similar to competitors’ tools to enhance user engagement and education.
+
+### 🟡 MEDIUM IMPACT (Opportunity Gaps)
+*Found in 2-3 competitors.*
+
+- **Expand discussion on experimental design factors beyond sample size affecting power**, such as measurement precision, variance reduction, and design efficiency (e.g., blocking).
+- **Add intuitive analogies linking statistical power to test sensitivity and clinical diagnostics**, especially relevant for clinical/medical readers.
+
+### 🟢 LOW IMPACT (Differentiators)
+*Unique competitor features.*
+
+- **Create video content or tutorials explaining power calculation and its implications**, inspired by competitor YouTube videos, to diversify content formats.
+- **Add a comparison of power analysis tools (like G*Power, WebPower, etc.) with recommendations or tutorials**, increasing practical usability for researchers.
+
+---
+
+By addressing these high and medium impact gaps, CXL can position itself not only as a practical resource but also as a comprehensive, authoritative guide on statistical power, increasing its ranking potential and user retention.
