@@ -1,0 +1,870 @@
+# **Free**  **A/B Test**  **Calculator**
+
+The A/B Test Calculator helps you plan and analyze experiments with precision. It calculates sample size, test duration, and statistical significance, ensuring your A/B tests are backed by solid data for confident decision-making.
+
+![](https://cxl.com/wp-content/uploads/2025/09/CXL_AB-Test-Calculator_Header.png)
+
+## **Pre-Test Calculator – MDE**
+
+- What is the minimum detectable effect (MDE) to consider?
+- How long should the test run to detect meaningful results?
+- What’s the sample size required for this test?
+- How does the confidence level influence the test duration?
+
+How to Use?
+
+This section helps you estimate the required sample size for a valid experiment and the time needed to run your A/B test.
+
+1. **Input your data:**
+
+
+   - Confidence Level: Keep it at 95% for industry-standard confidence.
+   - [Statistical Power](https://cxl.com/blog/statistical-power/): 80% is commonly used, but you can adjust.
+   - Conversion rate for control: Enter the current conversion rate of your control group (e.g., 10%).
+   - Number of variants: Specify how many test variants you are comparing against the control.
+   - Weekly Conversions: The number of conversions you typically get in a week. Used to get an estimate of how many weeks you need to run your experiment.
+2. **Calculate your MDE**:
+
+
+
+Click **Calculate** to find out:
+
+   - **Minimum Detectable Effect (MDE):** The smallest effect size you aim to detect in a study.
+   - **Significance:** Represents a meaningful difference you don’t want to miss if it exists.
+   - **Expression:** Entered as a percentage, either relative or absolute.
+   - **Relation to Control:** MDE is either relative to or an absolute difference from the control conversion rate.
+   - Example:
+     - Control conversion rate = 10%
+     - Desired minimum test variant conversion rate = 15%
+     - MDE absolute = 5% –  (15 – 10)
+     - MDE relative = 50% –  (15 – 10) / 10 × 100
+
+### Data Input
+
+Confidence level %:
+
+Power Level %:
+
+Conversion Rate for control %:
+
+Minimum Detectable Effect (MDE) %:
+
+Number of Variants (not including control):
+
+Weekly Traffic:Is the Minimum Effect Relative? Yes
+No
+One-sided or Two-sided Test? One-sided
+Two-sided
+
+
+Calculate Sample Size
+
+### Results
+
+|     |     |
+| --- | --- |
+| Sample Size per Group: |  |
+| Total Sample Size: |  |
+| Estimated Duration (weeks): |  |
+
+## **Test Result Calculator**
+
+Once you’ve collected all your data, you can test if your variant is significantly different from the control. Before using this calculator, ensure the following:
+
+- **Required Sample Size:** The test has reached the necessary sample size.
+- **Avoid Multiple Testing:** Test only once you have collected all your data. Testing multiple times increases the risk of Type I errors by inflating the chance of finding a significant result by chance. Stick to your planned sample size and test duration before analyzing.
+
+How to Use?
+
+This section helps you analyze the performance of your A/B test to determine if your results are statistically significant.
+
+- **Input the following data**:
+
+
+  - **Control Visitors:** Enter the total number of visitors who saw the control version of the experiment.
+  - **Control Conversions:** Enter the number of conversions (e.g., purchases, sign-ups) from those who saw the control version.
+  - **Variant Visitors:** Enter the total number of visitors who saw the test variant.
+  - **Variant Conversions:** Enter the number of conversions from those who saw the test variant.
+  - **Confidence Level (%):** Keep it at 95% (industry standard) or adjust if needed.
+- **Click “Calculate”** to view the results:
+
+
+
+The results will display important metrics, including the conversion rates, lift, confidence interval of the difference between, p-value, z-score, and whether the results are statistically significant. We suggest looking at the 1-sided tests since they are more relevant for A/B testing.
+
+### Data Input
+
+Control Visitors:
+
+Control Conversions:
+
+Variant Visitors:
+
+Variant Conversions:
+
+Confidence Level (%):
+
+Calculate
+
+### Results
+
+|     |     |
+| --- | --- |
+| Control Conversion Rate | – |
+| Variant Conversion Rate | – |
+| Lift (%) | – |
+
+| **Absolute differences** |
+| Absolute difference | – |
+| Confidence Interval (Difference, %) | – |
+| Right-Sided Interval (%) | – |
+| Left-Sided Interval (%) | – |
+| Value ± SE (%) | – |
+| P-Value (One-sided) | – |
+| P-value (Two-sided) | – |
+| Z-Score | – |
+| Significance (One-sided) | – |
+| Bayesian Probability: Variant Wins (%) | – |
+| Bayesian Probability: Control Wins (%) | – |
+| Bayes Factor (H1/H0) | – |
+| **Relative differences** |
+| Relative Confidence Interval (Difference, %) | – |
+| Relative Right-Sided Interval (%) | – |
+| Relative Left-Sided Interval (%) | – |
+| Relative Difference ± SE | – |
+| Relative P-Value | – |
+| Relative Z-Score | – |
+
+## Become  **Certified**  **at CRO**
+
+Become a certified expert at conversion optimization with this
+
+comprehensive online course.
+
+- Learn how to build and run world-class optimization programs
+- Master everything there is to master about A/B testing
+- Immediately apply learnings with hundreds of playbooks
+- Drive better results without increasing costs
+
+Learn more
+
+![](https://cxl.com/wp-content/uploads/2025/09/CXL_AB-Test-Calculator_Certificate-1024x1024.png)
+
+![](https://cxl.com/wp-content/uploads/2025/09/AB-Test-Calculator-1.png)
+
+## **Marketers choose CXL**
+
+Testimonial - Collect and embed testimonials in minutes
+
+![](https://embed-v2.testimonial.to/images/fallback-img.png)
+
+![Adam Cheal](https://firebasestorage.googleapis.com/v0/b/testimonialto.appspot.com/o/linkedin-assets%2Favatars%2F4793d3e9-7a6d-4cc7-8055-9470c9134dc1?alt=media&token=d29af322-711c-438e-941f-9a393e4bd990)
+
+Adam Cheal
+
+Digital Customer Analyst at EasyJet
+
+[![linkedin-post](https://embed-v2.testimonial.to/images/linkedin-embed-logo.png)](https://www.linkedin.com/feed/update/urn:li:activity:7095793608858951680?updateEntityUrn=urn:li:fs_feedUpdate:(V2,urn:li:activity:7095793608858951680))
+
+The depth and breadth of the CRO program are unparalleled to anything I have done before and really test your knowledge 🚀
+
+CO
+
+Clifford Benjamin Oppong
+
+Product Manager @ Hues Apply
+
+[![linkedin-post](https://embed-v2.testimonial.to/images/linkedin-embed-logo.png)](https://www.linkedin.com/posts/clifford-benjamin-o-b603b2145_contentmarketing-attribution-marketingmeasurement-activity-7045900870210740224-OqTG?utm_source=share&utm_medium=member_desktop)
+
+CXL gives a fantastic learning experience!
+
+I highly recommend it to anyone looking to improve their skills and capabilities.
+
+![Oscar Hillerstrom](https://firebasestorage.googleapis.com/v0/b/testimonialto.appspot.com/o/testimonials%2F17379748-aa1a-4e25-8a7d-f62d012969e0%2Favatar?alt=media&token=e3d2a4d0-5809-488b-acef-2b53d74a5406)
+
+Oscar Hillerstrom
+
+Watchword
+
+CXL is the gold standard for a reason.
+
+I took up the Product Messaging and Sales Copywriting course to ‘brush up’. However, I was surprised by the layer of professional insights and real-life processes that took this beyond theory and into an actionable how-to.
+
+![Ignacio Basello](https://firebasestorage.googleapis.com/v0/b/testimonialto.appspot.com/o/linkedin-assets%2Favatars%2F98480e4f-f84d-4541-ad2e-6eca93343af9?alt=media&token=ef2e4363-5bec-47ec-822d-a4a4e8bb4a0f)
+
+Ignacio Basello
+
+Content Designer \| Service Designer \| CX Strategist \| Service Marketing Specialist
+
+[![linkedin-post](https://embed-v2.testimonial.to/images/linkedin-embed-logo.png)](https://www.linkedin.com/feed/update/urn:li:activity:7334182993793548288)
+
+The longer you work in a field, the fewer chances you get to feel completely mind-blown.
+
+You go to courses, and maybe you pick up a new tool or meet people dealing with the same chaos you are, but true “what the hell am I even doing with my life” moments? Rare.
+
+Or so I thought… until I took Louis Grenier’s Unique Positioning for Agencies course at CXL.
+
+Now, positioning isn’t new to me. I work on brand messaging for a living.
+
+But Louis did something that hasn’t happened to me in a long time: He made me feel like everything I’ve ever done is wrong. And I loved it.
+
+![Johnathan Dane](https://firebasestorage.googleapis.com/v0/b/testimonialto.appspot.com/o/testimonials%2Flinkedin-7337840856042770432%2Fprofile?alt=media&token=b35214c0-972c-406e-b915-37327e90efec)
+
+Johnathan Dane
+
+Founder @ KlientBoost
+
+[![linkedin-post](https://embed-v2.testimonial.to/images/linkedin-embed-logo.png)](https://www.linkedin.com/posts/johnathandane_heres-how-we-landed-the-biggest-client-in-activity-7337840856042770432-pUr7?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAZYB8QBFem8MM-YcbJR23Lz0Y5-WdIhw_4)
+
+Here’s how we landed the biggest client in KlientBoost history ($100,000/month) that no software would have attributed properly:
+
+In 2018, I recorded a course on Google Ads for CXL with Peep Laja.
+
+Sometime later, among hundreds of other students, a marketer, jobless at the time, signed up and went through the course.
+
+Months passed. A year passed. Nothing happened. If I had a CEO, I’d probably get asked "what’s the ROI of doing that course?", but luckily, I was the CEO.
+
+Then in 2019, this marketer got a job.
+
+At Bloomberg of all places.
+
+I ignored his first email thinking it was a scam lol.
+
+He was persistent and followed up.
+
+And just a few months later, he championed the deal and brought us Bloomberg as a client.
+
+At the time, our average monthly retainer was $6,000.
+
+This was initially a $20,000/month deal. So already amazing. But eventually it went to $100,000/mo, making it the biggest deal we’ve ever signed.
+
+Just because I was playing the long game (creating content for a course) and was ok with making marketing investments that won’t bring ROI this quarter.
+
+And if you don’t have a CEO that thinks this way, don’t rush and say that your CEO "doesn’t get marketing."
+
+Remember: It’s the CEOs job to be skeptical, avoid unnecessary risks and keep the lights on.
+
+It's your job to speak the CEOs language.
+
+Instead, share these kinds of stories with them. Send them this post. Talk to your customers and get marketing insights straight from the source.
+
+![Rokas K.](https://firebasestorage.googleapis.com/v0/b/testimonialto.appspot.com/o/testimonials%2F702da5ed-924d-4190-a48f-3e2be11ac474%2Favatar?alt=media&token=2964a913-c873-4776-bd0c-f29a3198285b)
+
+Rokas K.
+
+ux/ui designer transitioning to CRO Small-Business(50 or fewer emp.)
+
+High‑quality, practical content delivered by truly competent specialists
+
+I don’t really dislike anything - though the price is higher than platforms like Udemy or Coursera.
+
+As a UX/UI designer pivoting into CRO, CXL’s courses packed me with data‑driven ideas, techniques, and real‑world examples for tackling optimization challenges.
+
+J
+
+Josefina C.
+
+Content Specialist
+
+"Expert-led courses that truly level up your marketing skills"
+
+CXL delivers the most practical, in-depth marketing training I’ve come across—built by pros.
+
+[Read more](http://www.g2.com/products/cxl-institute-cxl/reviews/cxl-review-10997092)
+
+![Angel G.](https://firebasestorage.googleapis.com/v0/b/testimonialto.appspot.com/o/testimonials%2F9b2ac78b-d42f-47b9-bc0b-d06d6d5f6e54%2Favatar?alt=media&token=12f04515-36fc-47c7-8514-71f0e627bc3f)
+
+Angel G.
+
+Growth Marketing Manager
+
+"Effective and practical marketing courses by real professionals"
+
+I love how CXL’s courses and minidegrees go beyond just theory. There’s a huge variety. Growth Marketing Minidigree was my first choice. And everything is taught by industry experts with real-world experience. The quality and depth of the content justify the price.
+
+The lessons are thorough yet practical, helping me quickly apply what I learn to my day-to-day marketing work. There are also ready to use templates, frameworks and other resources. The CXL platform offers guided learning paths to keep you on track.
+
+If you’re serious about upgrading your marketing, analytics, or CRO skills, CXL is definitely worth checking out.
+
+[Read more](http://www.g2.com/products/cxl-institute-cxl/reviews/cxl-review-10735103)
+
+![Sandra A.](https://firebasestorage.googleapis.com/v0/b/testimonialto.appspot.com/o/testimonials%2Febd30a0c-07fd-4145-86d5-079522e995fc%2Favatar?alt=media&token=dfcfb361-8974-4e0f-946a-53b1591a7c62)
+
+Sandra A.
+
+CRM executive
+
+"Brilliant platform for learning"
+
+I’ve had an outstanding experience with the CXL platform, completing courses like A/B Testing Mastery, People & Psychology, Principles of Persuasive Design, and Cognitive Biases. The courses are incredibly in-depth and detailed, providing a wealth of knowledge that has greatly enriched my understanding of these topics.
+
+One of the standout features of CXL is its course structure. The mix of text, video content, and abundant additional resources—such as TED Talks and reading materials—made learning both engaging and comprehensive. I especially appreciated the mini-tests between topics, which helped me solidify my knowledge as I progressed.
+
+The platform’s design and presentation are excellent, making it a joy to use. I highly recommend CXL to anyone looking to upgrade their skills, whether for professional growth or personal development. I’ll definitely continue using CXL for future learning!
+
+[Read more](https://www.g2.com/products/cxl-institute-cxl/reviews/cxl-review-10583218)
+
+![Angie T.](https://firebasestorage.googleapis.com/v0/b/testimonialto.appspot.com/o/testimonials%2Fb21fafb3-c71b-4c61-8c67-3a45e6daf60a%2Favatar?alt=media&token=9fa6b09e-5dc7-4d64-9530-62b59d0d2c63)
+
+Angie T.
+
+Marketing Growth &amp; Analyst Manager
+
+"A digital marketing platform for all digital marketeers"
+
+I like the variety of courses on the platform that is catered to marketing needs. Each course/ program is segmented into digestable and practical content that I am able to apply to my work and also inspire me to look at topics in a different perspecitve.
+
+[Read more](https://www.g2.com/products/cxl-institute-cxl/reviews/cxl-review-10550693)
+
+D
+
+Damian G.
+
+Marketing Manager
+
+"CXL - Best marketing courses!"
+
+As a Digital Marketing Manager who has completed courses at CXL, what I like best about CXL is its depth, practicality, and expert-led approach. Unlike many other online courses that just scratch the surface, CXL dives deep into advanced marketing strategies with a strong focus on data-driven decision-making.
+
+[Read more](http://www.g2.com/products/cxl-institute-cxl/reviews/cxl-review-10848566)
+
+![Marta B.](https://firebasestorage.googleapis.com/v0/b/testimonialto.appspot.com/o/testimonials%2F93a71b83-5556-4c8a-86b1-a097ff5ac50a%2Favatar?alt=media&token=78c80b13-4efd-4844-a9d0-113035cfed2e)
+
+Marta B.
+
+Global Product Owner
+
+"Hands-on courses given by industry experts"
+
+I've been taking the CRO Mini Degree course from [CXL.com](http://cxl.com/) and overall, it's been a positive experience. The course is very hands-on, which is great for those who prefer practical learning. There's a wealth of material available, covering a broad range of topics relevant to conversion rate optimization. The numerous examples from real businesses are particularly helpful, as they provide concrete illustrations of the concepts being taught. Also, the website is easy to naviagate. And I do like the fact that you can clearly see how much material you have covered.
+
+Despite these minor issues, the course is a valuable resource for anyone looking to deepen their expertise in CRO. I am still in the process of taking the mini-degree, so not able to fully evaluate it yet.
+
+Right now, I have been using the [cxl.com](http://cxl.com/) on a daily base, as I have been trying to finalize the course and get the skills needed for my new CRO role. (I have transitioned from product)
+
+[Read more](http://www.g2.com/products/cxl-institute-cxl/reviews/cxl-review-10312124)
+
+![Robynn F.](https://firebasestorage.googleapis.com/v0/b/testimonialto.appspot.com/o/testimonials%2F-OSYjgPJescf-7fRSPI9%2Favatar?alt=media&token=7f02ab49-f9d0-4ce7-beb7-2dab6e950bcc)
+
+Robynn F.
+
+Lead Generation Content Editor
+
+"Great Resource for Digital Marketers"
+
+Unlike any other course I’ve taken - love the conversational feel! CXL has a wide variety of resources and digital marketing courses to explore and is great for those looking to expand and deepen their skills. Very engaging!
+
+[Read more](http://www.g2.com/products/cxl-institute-cxl/reviews/cxl-review-10278390)
+
+M
+
+Michael E.
+
+Content Marketer
+
+"The right marketing resource for all marketers."
+
+I've desired access to CXL for about a year. Of the many features, what stands out most are the illustrative examples with which tutors buttress a point, a lesson, a perspective, or an example. Makes the lesson sticky, which it's an important element of great content.
+
+[Read more](http://www.g2.com/products/cxl-institute-cxl/reviews/cxl-review-10612590)
+
+J
+
+Joel A.
+
+Digital Marketing Manager
+
+"The Best Learning Platform for Marketing Professionals"
+
+I love the simplicity of their lecture delivery. The workbooks and template provided is a real deal.
+
+[Read more](http://www.g2.com/products/cxl-institute-cxl/reviews/cxl-review-10683614)
+
+S
+
+Stephen O.
+
+Marketing Manager
+
+"A great learning experience"
+
+I really love how in-depth the trainings on CXL is, with great leaders in the industry. The CXL experience has transformformed my learning experience, impacting on my results in the actual world.
+
+[Read more](http://www.g2.com/products/cxl-institute-cxl/reviews/cxl-review-10648225)
+
+L
+
+Lekan A.
+
+Digital marketer
+
+"A World Class Experience"
+
+I love the way CXL simplified every topic. They also provided extra learning materials that breakdown difficult concepts.
+
+[Read more](http://www.g2.com/products/cxl-institute-cxl/reviews/cxl-review-10612601)
+
+![Alyssa Denise B.](https://firebasestorage.googleapis.com/v0/b/testimonialto.appspot.com/o/testimonials%2F910f304c-89b7-4285-9979-30d35150d523%2Favatar?alt=media&token=5d9a15e4-99a1-4125-8191-4491a1d01a24)
+
+Alyssa Denise B.
+
+Marketer
+
+"A 'Super Mario power-up' to my years sales and marketing experience"
+
+Hands down, this was the best course I've ever taken on CRO. The mentors aren't just knowledgeable—they have years of hands-on experience in the exact strategies they teach. The material is intense, but in the best way possible.
+
+[Read more](http://www.g2.com/products/cxl-institute-cxl/reviews/cxl-review-10283418)
+
+![Marco H.](https://firebasestorage.googleapis.com/v0/b/testimonialto.appspot.com/o/testimonials%2Fbb13d6f1-9629-438c-bca1-9d3485ba35d4%2Favatar?alt=media&token=f948b8d8-a2bb-4a29-a89c-cf3de74228c7)
+
+Marco H.
+
+Sr Growth Strategist
+
+"Its a deep training for specialized skills"
+
+It brings eveything to the next level. Very few courses have the depth that has cxl
+
+[Read more](http://www.g2.com/products/cxl-institute-cxl/reviews/cxl-review-10734399)
+
+P
+
+Paul N.
+
+Digital Analyst
+
+"A robust platform for anything digital"
+
+They have the best comprehensive courses, especially for digital analytics (which offers a mini degree). Aside from that, they have a large repository of related courses created by top experts. The platform is easy to use and offers amazing support.
+
+[Read more](http://www.g2.com/products/cxl-institute-cxl/reviews/cxl-review-10528680)
+
+D
+
+Darren J.
+
+Paid Media Manager
+
+"The Courses are well structured , which allows you to grasp the new concepts with ease."
+
+The course are in depth and dont just cover the surface level topics , the course also have an immediate impact on my current job and the skills are easily transferable.
+
+[Read more](http://www.g2.com/products/cxl-institute-cxl/reviews/cxl-review-10612902)
+
+Á
+
+Álvaro I.
+
+LinkedIn Ads Campaign Manager
+
+"Amazing platform with up to date courses"
+
+I always learn something new, no matter if I already use the tool/platform.
+
+[Read more](http://www.g2.com/products/cxl-institute-cxl/reviews/cxl-review-10292166)
+
+A
+
+Anja C.
+
+Marketer
+
+"Great experience with insightful videos structured curriculum enriching theory and practical skills."
+
+What I appreciate most about CXL is the exceptional learning experience it provides through insightful video lessons, interactive questions, and a well-structured curriculum that enhances both theoretical knowledge and practical skills in digital marketing.
+
+[Read more](http://www.g2.com/products/cxl-institute-cxl/reviews/cxl-review-9361928)
+
+L
+
+Luka P.
+
+Head of Product Marketing
+
+"My Journey Through CXL's Conversion Optimization Minidegree"
+
+The best aspect of CXL's Conversion Optimization Minidegree program is the depth and breadth of knowledge it offers. The program includes 21 comprehensive courses spread across five cumulative tracks, ensuring a thorough understanding of various subjects. Learning from the top 1% of conversion experts from notable companies like Speero, Convoy, and CXL itself has been invaluable. The program skillfully combines theory and practical application, covering critical areas such as optimization strategies, A/B testing, heuristic analysis, user research, and neuromarketing techniques. This holistic approach provides a robust foundation in conversion optimization, UX, and web analytics, empowering students to apply their skills effectively in real-world scenarios.
+
+[Read more](http://www.g2.com/products/cxl-institute-cxl/reviews/cxl-review-9114148)
+
+![ Kate N.](https://firebasestorage.googleapis.com/v0/b/testimonialto.appspot.com/o/testimonials%2Fa9c537b5-1aab-4f10-b8cc-86d3c4ac6c5d%2Favatar?alt=media&token=34fb29f0-9bc4-4d0e-8f53-cfed04e59d89)
+
+Kate N.
+
+Content Manager
+
+"Best platform for professional education"
+
+I got 4 diplomas with CXL. Great delivery of the topics, teachers are experts. I'm already applying knowledge in my job.
+
+[Read more](http://www.g2.com/products/cxl-institute-cxl/reviews/cxl-review-10334179)
+
+A
+
+Aleksandra J.
+
+Marketer
+
+"Very insightful courses for marketing."
+
+I liked very structured learning paths and the emphasis on data-driven insights really stand out. CXL's approach to teaching practical skills, they are backed by the research and case studies. I gained actionable knowledge with great value and I believe I will be able to scale our business. It is a powerhouse for anyone looking to dive deep into marketing, analytics, and UX design.
+
+[Read more](http://www.g2.com/products/cxl-institute-cxl/reviews/cxl-review-9366028)
+
+![Owk P.](https://firebasestorage.googleapis.com/v0/b/testimonialto.appspot.com/o/testimonials%2Fd0f83941-c889-4501-ad2e-d1aaa4b3a328%2Favatar?alt=media&token=23bdd0e4-7ee0-452f-9faa-2a136e5ac459)
+
+Owk P.
+
+Marketer
+
+"A comprehensive and insightful journey into the intricacies of product marketing"
+
+The content was well-structured, covering essential aspects of product marketing from market research and customer segmentation to positioning and messaging strategies. The instructors demonstrated a deep understanding of the subject matter, delivering engaging and practical insights that were immediately applicable to real-world scenarios.
+
+The ease of use of the product made it even more engaging and helpful during my certification journey
+
+[Read more](http://www.g2.com/products/cxl-institute-cxl/reviews/cxl-review-9174674)
+
+N
+
+Nathan A.
+
+Branding & Communications Coordinator
+
+"Amazing experience and content!"
+
+CXL has some of the best and well made content on the education market. Their courses range from beginner to advanced in essential areas for Growth, CRO, Analytics and Digital Marketing. Really a must for everyone who wants to step up their game.
+
+[Read more](http://www.g2.com/products/cxl-institute-cxl/reviews/cxl-review-9165062)
+
+![Maria T.](https://firebasestorage.googleapis.com/v0/b/testimonialto.appspot.com/o/testimonials%2Fae5ce84f-6684-450e-b140-c6e8088d1dfc%2Favatar?alt=media&token=f115ac8a-9595-416b-b086-df045d275c03)
+
+Maria T.
+
+Growth Marketer
+
+"One of the best learning platforms for Growth Marketers"
+
+1) a range of courses
+
+2) very hands-on
+
+3) every tech course is specifically tailored to marketers
+
+[Read more](http://www.g2.com/products/cxl-institute-cxl/reviews/cxl-review-9147890)
+
+![Marie R.](https://firebasestorage.googleapis.com/v0/b/testimonialto.appspot.com/o/testimonials%2Fcfe0b93f-1237-4081-9462-391aa98ea93f%2Favatar?alt=media&token=f01d7060-166d-4b08-ade3-d656e74551ee)
+
+Marie R.
+
+Digital Stratigist
+
+"A Platform, where you get plenty of materials and advices from Experts"
+
+\+ you can study anytime you like
+
+\+ you can jump from one course to another
+
+\+ you receive certificates
+
+\+ you can benefit from using typescripts, if you dont hear clearly
+
+\+ you can connect from any device you would like with internet connection
+
+\+ mobile friendly platform
+
+\+ taught by experts
+
+[Read more](http://www.g2.com/products/cxl-institute-cxl/reviews/cxl-review-9084177)
+
+![Charan C.](https://firebasestorage.googleapis.com/v0/b/testimonialto.appspot.com/o/testimonials%2F131499f3-aa50-4f06-8e93-1d875a9663f1%2Favatar?alt=media&token=f34ae286-fcb2-48e6-ada9-1119c39254cd)
+
+Charan C.
+
+Reporting Specialist
+
+"One place stop for best digital marketing !"
+
+The courses and minidegrees are super useful and explained well. I can implement the skills right away after learning.
+
+[Read more](http://www.g2.com/products/cxl-institute-cxl/reviews/cxl-review-9084546)
+
+S
+
+Sander v.
+
+Marketing manager
+
+"Great hub to enrich your online marketing knowledge"
+
+My specific need was to get a more T-shaped profile and I succeeded. CXL brings together the knowledge of the very best marketers in the market with knowledge sharing. There are many courses of high quality from beginner to expert, allowing everyone to learn. Regardless of your level, you can always improve content or go broader in terms of knowledge. The courses are updated regularly, as the tooling & market changes quickly. In my search for the best courses, I found CXL the standard in the market on resumes and in the industry.
+
+I love the idea of a Netflix for online marketing and I have followed many courses in the field of GA4/analytics, CRO and SEO. It's definitely worth the money.
+
+[Read more](http://www.g2.com/products/cxl-institute-cxl/reviews/cxl-review-9881113)
+
+![Elena Shmeleva](https://firebasestorage.googleapis.com/v0/b/testimonialto.appspot.com/o/testimonials%2F84e2711b-7e48-47c6-b997-02ef3ea35c3f%2Favatar?alt=media&token=ec3d08e3-afb6-43ec-9338-d1269b8ea4b0)
+
+Elena Shmeleva
+
+B2B SaaS Demand Generation & Paid Social Expert
+
+One of the most practical and strategic B2B marketing sessions I’ve taken
+
+Just wrapped up the “Run Efficient Organic and Paid B2B Campaigns” live course with Justin Rowe on CXL this week.
+
+💎 I’ve been following Justin for years, so when I saw he was teaching a course with CXL, signing up was a no-brainer — and it turned out to be one of the most practical and strategic B2B marketing sessions I’ve taken.
+
+Some of the key topics we covered:
+⏩ How to align paid and organic efforts into one cohesive system
+⏩ Choosing the right channels based on funnel stage & business goals
+⏩ The underrated power of organic content + thought leadership
+⏩ Attribution in B2B: measuring what really moves the needle
+
+If you work with B2B demand gen or paid traffic, I highly recommend it.
+
+[Read more](http://www.linkedin.com/posts/elena-shmeleva-9b6374b_just-wrapped-up-therun-efficient-organic-activity-7342226630787883008-IrS6?utm_source=share&utm_medium=member_desktop&rcm=ACoAABt5YmcBy42LxERxK2kXEp2yS3BNF0oRtN8)
+
+![Paulo Eduardo Chaves de Freitas](https://firebasestorage.googleapis.com/v0/b/testimonialto.appspot.com/o/linkedin-assets%2Favatars%2F435325a6-eec4-4d10-98dc-b868c72d0e84?alt=media&token=7f624a99-892a-41c7-bad2-3ce91266eab3)
+
+Paulo Eduardo Chaves de Freitas
+
+B2B SaaS Demand Generation
+
+[![linkedin-post](https://embed-v2.testimonial.to/images/linkedin-embed-logo.png)](https://www.linkedin.com/feed/update/urn:li:activity:7392576590838198272)
+
+Is CXL really a good place to learn B2B marketing?
+
+On my journey to becoming a modern B2B marketing professional, I started studying at CXL. First course: B2B Demand Generation.
+
+And... YES, CXL is a great B2B marketing school. I'm learning a great deal in this first course, with up-to-date and straightforward content.
+
+![Spencer M.](https://firebasestorage.googleapis.com/v0/b/testimonialto.appspot.com/o/linkedin-assets%2Favatars%2Fa1d49bd3-19d7-4c5f-9eed-2919c695f562?alt=media&token=097c994f-b4d3-46ff-bef4-0f66d64d4fdc)
+
+Spencer M.
+
+Marketing Operations Manager
+
+[![linkedin-post](https://embed-v2.testimonial.to/images/linkedin-embed-logo.png)](https://www.linkedin.com/feed/update/urn:li:activity:7408812460872351745)
+
+I’m happy to share that I’ve obtained a new certification: Marketing Digital Analytics Minidegree from CXL! This was hands down the best course I’ve taken yet. Was insightful, actionable and applicable across all business types. This is knowledge every modern marketer needs to have and I will lean on this information for my advancing career.
+
+J
+
+Joseph N.
+
+Founder - Growth Marketer
+
+"Growth marketing course that delivers results"
+
+CXL’s Growth Marketing Minidegree provides insights from the very best in the industry. The industry-leading experts add depth of practical, immediately-applicable strategies. They also provide real-world case studies, which greatly boosted my confidence and skills as a marketer.
+
+[Read more](http://www.g2.com/products/cxl-institute-cxl/reviews/cxl-review-10989954)
+
+P
+
+Paul E.
+
+Digital Marketing Manager
+
+"EXCELLENT MARKETING TRAINING PLATFORM"
+
+What I love most about CXL is how they stay ahead of the curve, always up to date with the latest trends. They consistently roll out new courses that empower marketing professionals to adapt to evolving challenges and excel with excellent tutors who are thought leaders and have impacted some of the Fortune 500 companies. Through its innovative and strategic approach to marketing, CXL equips marketing professionals with the tools they need to stand out and thrive in today’s competitive landscape.
+
+[Read more](http://www.g2.com/products/cxl-institute-cxl/reviews/cxl-review-10687260)
+
+![Luiza T.](https://firebasestorage.googleapis.com/v0/b/testimonialto.appspot.com/o/testimonials%2F3f29f2e0-9f76-40f2-89e3-e2b6f6bc8687%2Favatar?alt=media&token=3fa31850-b0a9-47bb-b3c2-73dc63011496)
+
+Luiza T.
+
+Performance Marketing Manager
+
+"CXL is a Career Development Game Changer"
+
+In-depth content with an incredible didactic approach that makes it easy to understand how to implement the knowledge you've acquired in practice. + The platform offers an extended and highly up to date diversity of topics that correspond to all the specializations highly sought after by the market.
+
+[Read more](http://www.g2.com/products/cxl-institute-cxl/reviews/cxl-review-10822319)
+
+JA
+
+Jen Arvayo
+
+Digital Marketing Expert, B2B Growth at Relias
+
+"The most insightful 4 hours I've spent"
+
+Just finished the Run Efficient Organic and Paid B2B Campaigns live course from CXL with Justin Rowe.
+
+Hands-down, the most insightful 4 hours I've spent this month on anything.
+
+10/10 - would highly recommend! 🚀
+
+[Read more](https://www.linkedin.com/feed/update/urn:li:activity:7341167577659842561/?actorCompanyId=5035649)
+
+![Steve Toth](https://firebasestorage.googleapis.com/v0/b/testimonialto.appspot.com/o/testimonials%2Flinkedin-7391474368536776704%2Fprofile?alt=media&token=ea59aeb3-ea04-4f0e-9f63-ecf895b8afbd)
+
+Steve Toth
+
+Instructor - AI Search & SEO for B2B Brands
+
+[![linkedin-post](https://embed-v2.testimonial.to/images/linkedin-embed-logo.png)](https://www.linkedin.com/posts/stevetothjr_justsayin-ainotebook-activity-7391474368536776704-eLKH?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAZYB8QBFem8MM-YcbJR23Lz0Y5-WdIhw_4)
+
+Feels great to know that my CXL course on Answer Engine Optimization is helping others get results for their clients.
+
+![Sıla Özeren Hacıoğlu, MSc](https://firebasestorage.googleapis.com/v0/b/testimonialto.appspot.com/o/linkedin-assets%2Favatars%2Feb21fa0a-a807-494b-b5b2-4bbfd6ccebb3?alt=media&token=e75300b4-8f7e-4da5-8b68-8f82a8de88e3)
+
+Sıla Özeren Hacıoğlu, MSc
+
+Content Development Strategist
+
+[![linkedin-post](https://embed-v2.testimonial.to/images/linkedin-embed-logo.png)](https://www.linkedin.com/feed/update/urn:li:activity:7396564616635576320)
+
+I have completed the CXL course on Increasing visibility and revenue from AI discovery engines 🫳 🎤 . It is my first CXL certificate, so I am really proud of myself, lol.
+
+It was a wake-up call for my current writing strategy, and it showed me how I need to adapt over the next couple of years to be prepared for AI citations. I took a crazy amount of notes from each module of the course, wrote key takeaways on top of them, and even shared them with friends. It was so cool.
+
+Thank you to Alex Birkett for this amazing course!! It was purely based on experience and expertise, and featured an intelligently planned curriculum.
+
+![Carlos Trujillo](https://firebasestorage.googleapis.com/v0/b/testimonialto.appspot.com/o/linkedin-assets%2Favatars%2Fd774ba9c-da60-4346-8aa4-13bbe2d6d3d5?alt=media&token=d466a8ad-c01c-4c45-9cba-f5b4cf01ac03)
+
+Carlos Trujillo
+
+Ecomm Growth through Experimentation and CRO \| Speero
+
+[![linkedin-post](https://embed-v2.testimonial.to/images/linkedin-embed-logo.png)](https://www.linkedin.com/feed/update/urn:li:activity:7399800136845017088)
+
+CXL changed my life.
+
+I'm not exaggerating; it actually did.
+
+In April 2020, I paid my subscription to the platform looking to upskill by learning from the top 1% marketers and experimentation practitioners in the world.
+
+I got so deep in the content (my wife would say 'obsessed'!) that a year later, in a completely unexpected turn of events, I was hired by Speero (formerly "CXL Agency") and started working alongside some of the most brilliant minds in digital experimentation for dream clients all over the world.
+
+Boom. Easily a 50x ROI right there.
+
+![](https://cxl.com/wp-content/uploads/2024/08/CXL-Customer-Logo-4-1024x267.png)
+
+## **Old playbooks are burning budget.** Discover the new ones filling pipelines.
+
+**Join 150,000+ marketers.** Subscribe to our weekly, expert-led newsletter. We find and report on case studies, success stories, and playbooks that are working out there right now.
+
+- Your e-mail\*
+
+- This field is hidden when viewing the form
+Consent\*
+
+
+  - [x] I agree to receive updates from CXL.
+
+- This field is hidden when viewing the form
+gfield\_cxl\_user\_source\_path
+
+- This field is hidden when viewing the form
+gfield\_cxl\_user\_gclid
+
+- This field is hidden when viewing the form
+gfield\_cxl\_user\_fbclid
+
+- This field is hidden when viewing the form
+gfield\_cxl\_user\_msclkid
+
+- This field is hidden when viewing the form
+gfield\_cxl\_user\_location
+
+- This field is hidden when viewing the form
+gfield\_cxl\_user\_ga\_cookie
+
+- This field is hidden when viewing the form
+gfield\_cxl\_user\_li\_fat\_id
+
+- This field is hidden when viewing the form
+gfield\_cxl\_user\_is\_bot
+
+- CAPTCHA
+
+
+
+
+
+
+reCAPTCHA
+
+
+
+
+
+
+
+Recaptcha requires verification.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[Privacy](https://www.google.com/intl/en/policies/privacy/) \- [Terms](https://www.google.com/intl/en/policies/terms/)
+
+
+
+
+
+protected by **reCAPTCHA**
+
+
+
+reCAPTCHA is changing its terms of service. [Take action.](https://google.com/recaptcha/admin/migrate)
+
+
+
+
+
+[Privacy](https://www.google.com/intl/en/policies/privacy/) \- [Terms](https://www.google.com/intl/en/policies/terms/)
+
+- Name
+
+
+This field is for validation purposes and should be left unchanged.
+
+
+Subscribe
+
+**Join 150,000+ marketers \| Subscribe**
+
+×
+
+Notifications
+
+ [Scroll to top](https://cxl.com/ab-test-calculator/#top "Scroll to top")
+
+reCAPTCHA
+
+Select all images with a **bus** Click verify once there are none left.
+
+|     |     |     |
+| --- | --- | --- |
+| ![](https://www.google.com/recaptcha/api2/payload?p=06AFcWeA7n7jgT8vgIw6conD-5OBWooBdZrgbw2Prg1Z00HOklnpGzu_A8ANl9hi0rr3jHrtMaLTD0HRqr7jaiTMgwwVUbFXJYYNvoF0vhhlmU-ob02udA2M3W6nFGAdFyfji6qwZixaYF71jzmHhDLTXERLazRlj14-3Wa3h-Aq2ybL1IvVsHjzN6fUF60sTF7ROZJugnxeoY&k=6LdXWMYUAAAAAEPTtqpByrYLI64f7Cy-jMoo_XG0) | ![](https://www.google.com/recaptcha/api2/payload?p=06AFcWeA7n7jgT8vgIw6conD-5OBWooBdZrgbw2Prg1Z00HOklnpGzu_A8ANl9hi0rr3jHrtMaLTD0HRqr7jaiTMgwwVUbFXJYYNvoF0vhhlmU-ob02udA2M3W6nFGAdFyfji6qwZixaYF71jzmHhDLTXERLazRlj14-3Wa3h-Aq2ybL1IvVsHjzN6fUF60sTF7ROZJugnxeoY&k=6LdXWMYUAAAAAEPTtqpByrYLI64f7Cy-jMoo_XG0) | ![](https://www.google.com/recaptcha/api2/payload?p=06AFcWeA7n7jgT8vgIw6conD-5OBWooBdZrgbw2Prg1Z00HOklnpGzu_A8ANl9hi0rr3jHrtMaLTD0HRqr7jaiTMgwwVUbFXJYYNvoF0vhhlmU-ob02udA2M3W6nFGAdFyfji6qwZixaYF71jzmHhDLTXERLazRlj14-3Wa3h-Aq2ybL1IvVsHjzN6fUF60sTF7ROZJugnxeoY&k=6LdXWMYUAAAAAEPTtqpByrYLI64f7Cy-jMoo_XG0) |
+| ![](https://www.google.com/recaptcha/api2/payload?p=06AFcWeA7n7jgT8vgIw6conD-5OBWooBdZrgbw2Prg1Z00HOklnpGzu_A8ANl9hi0rr3jHrtMaLTD0HRqr7jaiTMgwwVUbFXJYYNvoF0vhhlmU-ob02udA2M3W6nFGAdFyfji6qwZixaYF71jzmHhDLTXERLazRlj14-3Wa3h-Aq2ybL1IvVsHjzN6fUF60sTF7ROZJugnxeoY&k=6LdXWMYUAAAAAEPTtqpByrYLI64f7Cy-jMoo_XG0) | ![](https://www.google.com/recaptcha/api2/payload?p=06AFcWeA7n7jgT8vgIw6conD-5OBWooBdZrgbw2Prg1Z00HOklnpGzu_A8ANl9hi0rr3jHrtMaLTD0HRqr7jaiTMgwwVUbFXJYYNvoF0vhhlmU-ob02udA2M3W6nFGAdFyfji6qwZixaYF71jzmHhDLTXERLazRlj14-3Wa3h-Aq2ybL1IvVsHjzN6fUF60sTF7ROZJugnxeoY&k=6LdXWMYUAAAAAEPTtqpByrYLI64f7Cy-jMoo_XG0) | ![](https://www.google.com/recaptcha/api2/payload?p=06AFcWeA7n7jgT8vgIw6conD-5OBWooBdZrgbw2Prg1Z00HOklnpGzu_A8ANl9hi0rr3jHrtMaLTD0HRqr7jaiTMgwwVUbFXJYYNvoF0vhhlmU-ob02udA2M3W6nFGAdFyfji6qwZixaYF71jzmHhDLTXERLazRlj14-3Wa3h-Aq2ybL1IvVsHjzN6fUF60sTF7ROZJugnxeoY&k=6LdXWMYUAAAAAEPTtqpByrYLI64f7Cy-jMoo_XG0) |
+| ![](https://www.google.com/recaptcha/api2/payload?p=06AFcWeA7n7jgT8vgIw6conD-5OBWooBdZrgbw2Prg1Z00HOklnpGzu_A8ANl9hi0rr3jHrtMaLTD0HRqr7jaiTMgwwVUbFXJYYNvoF0vhhlmU-ob02udA2M3W6nFGAdFyfji6qwZixaYF71jzmHhDLTXERLazRlj14-3Wa3h-Aq2ybL1IvVsHjzN6fUF60sTF7ROZJugnxeoY&k=6LdXWMYUAAAAAEPTtqpByrYLI64f7Cy-jMoo_XG0) | ![](https://www.google.com/recaptcha/api2/payload?p=06AFcWeA7n7jgT8vgIw6conD-5OBWooBdZrgbw2Prg1Z00HOklnpGzu_A8ANl9hi0rr3jHrtMaLTD0HRqr7jaiTMgwwVUbFXJYYNvoF0vhhlmU-ob02udA2M3W6nFGAdFyfji6qwZixaYF71jzmHhDLTXERLazRlj14-3Wa3h-Aq2ybL1IvVsHjzN6fUF60sTF7ROZJugnxeoY&k=6LdXWMYUAAAAAEPTtqpByrYLI64f7Cy-jMoo_XG0) | ![](https://www.google.com/recaptcha/api2/payload?p=06AFcWeA7n7jgT8vgIw6conD-5OBWooBdZrgbw2Prg1Z00HOklnpGzu_A8ANl9hi0rr3jHrtMaLTD0HRqr7jaiTMgwwVUbFXJYYNvoF0vhhlmU-ob02udA2M3W6nFGAdFyfji6qwZixaYF71jzmHhDLTXERLazRlj14-3Wa3h-Aq2ybL1IvVsHjzN6fUF60sTF7ROZJugnxeoY&k=6LdXWMYUAAAAAEPTtqpByrYLI64f7Cy-jMoo_XG0) |
+
+Please try again.
+
+Please select all matching images.
+
+Please also check the new images.
+
+Please select around the object, or reload if there are none.
+
+Verify
