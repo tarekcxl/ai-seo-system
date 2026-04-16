@@ -1,0 +1,23 @@
+{
+  "mcpServers": {
+    "google-search-console": {
+      "type": "stdio",
+      "command": "/opt/homebrew/bin/mcp-gsc",
+      "args": [],
+      "env": {
+        "GOOGLE_GSC_CREDENTIALS_PATH": "/Users/tarekreslan/.claude/gsc-claudecode.json",
+        "GOOGLE_GSC_ENABLE_EXTENDED_TOOLS": "true"
+      }
+    },
+    "ga4": {
+      "type": "stdio",
+      "command": "/opt/homebrew/bin/mcp-server-google-analytics",
+      "args": [],
+      "env": {
+        "GOOGLE_CLIENT_EMAIL": "ga4-claude-code@gsc-claudecode.iam.gserviceaccount.com",
+        "GOOGLE_PRIVATE_KEY": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCzblXvho+97luI\n0XtYKn3/61/0hcNreAG33uXSZgNPkvuuQejyFd6gyZ78BjtzaqP1CUBNsskd6KTD\ntVe07otqQQ+SzNHxbJXxvVsIEJ9ie4xhzTWyRcJXKpHqf3zDBNla2gkM78ouCBW/\nh/uTp/aD1MDzkcdU9SmxX1gBl9fNWipeJVv7HB4qXqiqAz8wc8AIRe4DCqgkmc+7\nAydO2Hdy4nG/lnk317tQlS2HNP7YtvkgLJZCUarSJrTDr26LLAMecc3NwQTM11t9\ncxxz9nWWoKkbkCI3I8Z0fbQ4KMxo2GW6YQOsSXTPi9WOaFoUwL6w7LiffFGm8S97\nYUQ7MgqpAgMBAAECggEAAyN0mK+iMgX0+ewCxqRaTIYByVV8TpPsdm/iqznM6Fu/\nepPSjvF3pxj/u+l2qWp9xa/MvSSEb2PTW0z/uhLLbidcg1/Wcuzy+SXWbXSvpQRY\n4e5kow1PUeuqXmSuelF1D9QX1m8XT+jPoJMGASuDR1kLAE0Azz6ej74Fhw7wimSi\n2eliRkNSSNBqDHtd8iTwzZLyTswPSoZ2g9RMEW7d6nDM+Gv6vVvXoVCpMhfquYAI\n4Xw+N08Sx8SqnZj0kltb5E6IcEfCJNxNyFVhrvd5MF2+6wMvQG8TGBwfTxqqR0zC\n3NuZ1kQgx9IWI8bb+svBeR/Pz6ZBeDTbNKHoWb3glQKBgQDfrLnVdziaYyR8nvJs\nhPEBjWeHsO64WxydctUmO3hl2ciO2whHq07c7mYUfQLKDrKl62ioIuqm62sCjY0o\nJaPivBHalaxMP8cebQQjFTZXL2m1jADjMAoaOxK3irYdZrmK7wLnT8krUiWHCECN\ntzXhpFMCJFCyB1MUdw1/T7zGawKBgQDNXLqdJkI6uNpl6A92P/hMBlnsJakhTt3P\nlVd9hoyBj9wCVNKRbUnlDEoUermBOHcs+gEcv3VvzPOW6EpvV+y21AZOczeJ4z1a\nxbu32/+U35lfVG5b69tSoakNFAhMKNISCiqEdV85pUE+jMfmMt9xIz24FxuXoS65\nsFVWFQTwOwKBgQCQmLneDN+Ttun8gkiX7O1coow+RRxeI9CA3J58w89WkI6+A0z7\n//vQiXGGZzZpZ00IRAH5R/FIDUK1eMq7HHIw/oHQPBgRht1zhug4wdrKTAVbbvGX\n7RNq16uG6e5HXYQvE8pdvM+A6O8Ht0b8FmeHwlJDPTTJkkCcJ0abefHAlwKBgARK\n/fOvCw9jMd2Tfk9AgxZDw7l2CBUUKvrd6lhLacCDm1vJHiXAHR1Wpm3LKvmSjps4\nFrHdJr1RkX4EGRo+wkoIIKGfMvgE8hFltMjhJnScP/6IK05snccabghB9PJyoAGU\niNMACR+RXs3J75vWUGlzDSU+BmujCPEEyKPmCJZlAoGACiOd2lQqgMHU/IN4ZHpY\n0akxBJTF2IcrHw/neXjEstNo6p67J56SUQ8xwGk/JhpUvJsIDDIDojzva+q0xq2n\nbUWD6Drjea4Bq271iHEuVaW4XbMVMgrHaZ8tygXn4TAiQJw77atCMtY1tRzu5j6I\nBOYMLzEZGqQKJPvv5yiSMDw=\n-----END PRIVATE KEY-----",
+        "GA_PROPERTY_ID": "287849261"
+      }
+    }
+  }
+}
