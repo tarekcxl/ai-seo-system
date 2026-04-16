@@ -44,7 +44,6 @@ Small improvements to the title or meta can recover meaningful clicks without ne
 - **Problem:** Generic title indistinguishable from any other CRO guide. Vague meta with no methodology signal.
 - **Best title:** `Conversion Rate Optimization: The CXL Methodology Used by Top Growth Teams`
 - **Best meta:** `CXL's CRO guide covers the full process: research, hypothesis building, A/B testing, and analysis. Built on frameworks from the world's top CRO practitioners — not generic advice.`
-- **⚠️ Data note:** 90-day figure (2.96M) does not scale with 28-day figure (9.5K). Likely a GSC sampling anomaly — verify directly in dashboard before using this number.
 
 ---
 
@@ -56,7 +55,6 @@ Small improvements to the title or meta can recover meaningful clicks without ne
 - **Problem:** Meta is completely empty of value. Query intent is informational ("what is a landing page conversion") but title/page focuses on building. Critical intent mismatch at massive scale.
 - **Best title:** `What Is a Landing Page Conversion? Definition, Benchmarks & How to Improve It`
 - **Best meta:** `A landing page conversion happens when a visitor completes your desired action — a signup, purchase, or download. Here's what good conversion rates look like, and how to hit them.`
-- **✅ Data confirmed:** 28-day figure (1.84M) scales proportionally to 90-day (6.17M).
 
 ---
 
@@ -68,8 +66,6 @@ Small improvements to the title or meta can recover meaningful clicks without ne
 - **Problem:** Salesy ROI-claim meta is likely being overridden by Google. Position 2.5 with 0% suggests AI overview dominance. Title subtitle is confusing.
 - **Best title:** `Email Marketing Strategies That Work: Segmentation, Automation, and Proven Frameworks`
 - **Best meta:** `A strong email marketing strategy covers more than sends and subject lines — it requires segmentation, lifecycle mapping, and testing. Here's how to build one that compounds over time.`
-- **⚠️ Data note:** Position dropped from 2.6 (90 days) to 17.7 (28 days) — possible recent ranking loss. Check page performance chart in GSC.
-
 ---
 
 ### 4. GA4
@@ -80,8 +76,6 @@ Small improvements to the title or meta can recover meaningful clicks without ne
 - **Problem:** Meta is pure PR speak with no practical signal. Title cliché "all you need to know" says nothing specific.
 - **Best title:** `Google Analytics 4: The Complete Guide for Marketers Who Need to Get Up to Speed`
 - **Best meta:** `GA4 works differently from Universal Analytics — events replace sessions, reports are rebuilt from scratch, and configuration requires more upfront work. This guide covers all of it practically.`
-- **✅ Data confirmed:** Trending up — 28-day figure scales to ~89K annualised vs 46K in 90-day. Fix is increasingly valuable.
-
 ---
 
 ### 5. Psychographics
