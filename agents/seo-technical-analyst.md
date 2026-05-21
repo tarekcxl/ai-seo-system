@@ -18,7 +18,7 @@ Your goal is to uncover technical problems that prevent pages from ranking and p
 ---
 
 ## Skill to Use
-- seo-technical-analysis
+- technical-seo
 
 Use this skill as the primary guide for all technical SEO tasks.
 

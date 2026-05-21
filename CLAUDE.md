@@ -1,359 +1,197 @@
-# Project Overview
+# SEO Operations System
 
-This project is an AI-powered SEO execution system designed to analyze, prioritize, improve, validate, and manage blog performance using real data.
+AI-powered SEO execution system for analyzing, prioritizing, improving, validating, and managing blog performance using real SEO and performance data.
 
-It identifies opportunities from GSC, GA4, Ahrefs, SERP data, and competitor analysis workflows, then converts them into actionable outputs such as:
-
-- content updates
-- CTR improvements
-- new articles
-- SEO experiments
-- project execution plans
-
-The system is designed as a modular agent-based SEO operations framework.
+The system uses modular agents, focused skills, and external workflows to execute SEO operations end-to-end.
 
 ---
 
 # Objective
 
-Maximize organic traffic, visibility, and conversions by:
+Maximize:
+- organic traffic
+- search visibility
+- AI-search visibility
+- conversions
 
-- Identifying high-impact SEO opportunities
-- Improving existing content
-- Creating new content based on real demand
-- Increasing CTR from search results
-- Ensuring factual accuracy and trustworthiness
-- Maintaining consistent tone of voice
-- Validating content quality before publishing
-- Organizing SEO execution into measurable projects
+Through:
+- SEO analysis
+- technical SEO
+- competitor analysis
+- content strategy
+- content creation
+- optimization
+- evaluation
+- execution management
 
 ---
 
 # Architecture
 
-- `/agents` → self-contained agents with execution logic and responsibilities
-- `/skills` → focused domain capabilities (analysis, writing, optimization, evaluation, management)
-- `/workflows` → external workflows, scraped data, drafts, reports, and automation outputs
-- `/skills/*/references` → optional contextual resources loaded only when needed
+- `/agents`
+  → self-contained operational agents
+
+- `/skills`
+  → focused capabilities used by agents
+
+- `/skills/*/references`
+  → optional context loaded only when needed
+
+- `/workflows`
+  → external automations, scraped data, drafts, reports
 
 ---
 
-# Core Principles
+# Core Rules
 
-- Always rely on real data when available
-- Prioritize impact over volume
+- Always prioritize real data over assumptions
 - Avoid generic SEO advice
 - Every insight must lead to a clear action
-- Strong content is clear, structured, useful, and differentiated
+- Do not duplicate agent responsibilities
+- Use focused skills instead of broad instructions
+- Load only relevant context
 - Do not copy competitors — outperform them
-- Accuracy and credibility matter as much as rankings
-- Use focused skills instead of overloaded instructions
-- Execution should align with SEO strategy
+- Preserve factual accuracy and credibility
+- Optimize for both traditional SEO and AI-search systems
 
 ---
 
-# System Workflow (IMPORTANT)
+# Execution Flow
 
-The system follows a structured SEO execution pipeline:
+Default workflow:
 
 1. `seo-analyst`
-   → identifies opportunities using SEO and performance data
+2. `seo-technical-analyst`
+3. `competitor-analyst`
+4. `content-strategist`
+5. `project-manager`
+6. `content-writer`
+7. `content-optimizer`
+8. `content-evaluator`
 
-2. `competitor-analyst`
-   → analyzes SERPs, competitor gaps, and missing opportunities
-
-3. `content-strategist`
-   → defines what content should be created, updated, or prioritized
-
-4. `project-manager`
-   → prioritizes experiments and organizes execution backlog
-
-5. `content-writer`
-   → creates new SEO content from scratch
-
-6. `content-optimizer`
-   → improves existing content and CTR performance
-
-7. `content-evaluator`
-   → validates quality, accuracy, trustworthiness, and tone consistency
-
-Always follow this sequence when tasks require multiple stages.
-
-Do not skip validation steps unless explicitly unnecessary.
+Do not skip evaluation when content quality matters.
 
 ---
 
 # Agent Responsibilities
 
 ## seo-analyst
-Focus:
-- GSC analysis
-- GA4 analysis
-- Ahrefs analysis
-- identifying SEO opportunities
-- performance insights
+SEO and performance analysis.
 
----
+## seo-technical-analyst
+Technical SEO audits, crawlability, indexing, rendering, and Core Web Vitals analysis.
 
 ## competitor-analyst
-Focus:
-- SERP analysis
-- competitor gap analysis
-- identifying missing topics and structures
-- triggering competitor scraping workflows
-
----
+SERP, competitor, and content gap analysis.
 
 ## content-strategist
-Focus:
-- keyword targeting
-- search intent
-- content briefs
-- deciding whether to refresh or create content
-
----
+Content planning, keyword targeting, and briefs.
 
 ## project-manager
-Focus:
-- prioritization
-- execution planning
-- Airtable-ready project tracking
-- backlog management
-- experiment organization
-
----
+Prioritization, backlog management, and execution tracking.
 
 ## content-writer
-Focus:
-- creating SEO content
-- AEO optimization
-- GEO optimization
-- following tone of voice and content examples
-
----
+New SEO/AEO/GEO content creation.
 
 ## content-optimizer
-Focus:
-- improving existing pages
-- rewriting weak sections
-- improving CTR
-- updating content using briefs and insights
-
----
+Content updates, CTR improvements, and optimization.
 
 ## content-evaluator
-Focus:
-- quality validation
-- EEAT evaluation
-- fact-checking
-- tone consistency
-- identifying hallucinations
-- final editorial review
+Quality validation, EEAT checks, fact-checking, and tone consistency.
 
 ---
 
-# How to Work
+# Skill Usage
 
-## Step 1: Understand the task
+Agents decide when to use skills.
 
-Identify:
+Skills define how execution happens.
 
-- the business goal
-- the SEO objective
-- available inputs
-- required outputs
-- whether the task is:
-  - analysis
-  - strategy
-  - creation
-  - optimization
-  - evaluation
-  - project management
+Use the most focused skill possible.
 
 ---
 
-## Step 2: Select the correct agent
+# Skills
 
-Use the most appropriate agent from `/agents`.
+## seo-data-analysis
+Analyze SEO data from GSC, GA4, and Ahrefs to identify ranking, CTR, and traffic opportunities.
 
-Do not mix responsibilities unnecessarily.
+## competitor-analysis
+Analyze SERPs and competitor content to identify ranking patterns, gaps, and optimization opportunities.
 
-Each agent should focus on its defined role.
+## content-freshness-audit
+Audit existing content freshness and determine whether pages need updates based on recency and SEO relevance.
+
+## technical-seo
+Audit technical SEO issues affecting crawlability, indexing, rendering, and Core Web Vitals.
+
+## seo-content-strategy
+Create SEO content strategies, keyword targeting plans, and actionable content briefs.
+
+## project-management
+Prioritize SEO projects and experiments, manage execution plans, and prepare Airtable-ready tracking updates.
+
+## seo-content-writing
+Write SEO blog content from briefs and keyword strategy for search-intent-focused content creation.
+
+## content-optimization
+Improve existing content for SEO, clarity, structure, and search intent alignment.
+
+## ctr-optimization
+Optimize titles and meta descriptions to improve CTR from search results.
+
+## aeo-geo-optimization
+Optimize content for AI search systems, answer extraction, and retrieval-friendly formatting.
+
+## seo-quality-check
+Evaluate content quality, EEAT, readability, structure, and usefulness before publishing.
+
+## fact-check
+Validate factual accuracy, statistics, and claims to reduce hallucinations and credibility risks.
+
+## tone-voice-consistency
+Validate tone consistency using reference feedback, tone guidelines, and blog examples.
 
 ---
 
-## Step 3: Execute sequentially when needed
+# Workflow Usage
 
-For multi-stage tasks:
-
-- pass outputs from one agent to the next
-- preserve context between stages
-- avoid redoing completed work
-
-Example:
-
-`seo-analyst`
-→ `content-strategist`
-→ `project-manager`
-→ `content-writer`
-→ `content-evaluator`
-
----
-
-## Step 4: Use skills appropriately
-
-Skills define HOW execution happens.
-
-Agents decide WHEN to use them.
-
-Use focused skills instead of broad instructions.
-
-Do not overload a single skill with unrelated responsibilities.
-
----
-
-## Step 5: Use workflows when required
-
-Use `/workflows` when external automation or data retrieval is needed.
-
-Examples:
+Use `/workflows` for:
 - competitor scraping
 - Firecrawl extraction
-- n8n workflows
-- external SEO data pipelines
+- n8n automations
+- external SEO pipelines
 
-Treat workflows as execution tools, not reasoning tools.
+Workflows execute tasks.
 
----
-
-## Step 6: Validate before final output
-
-All high-quality content should go through evaluation before finalization.
-
-Validation includes:
-
-- SEO quality
-- search intent alignment
-- readability
-- differentiation
-- EEAT
-- factual accuracy
-- tone consistency
-- hallucination checks
-
-If issues are found:
-→ improve content before finalizing.
-
----
-
-# Skill Usage Guidelines
-
-Use the most relevant skill for the problem.
-
-## Analysis Skills
-
-- `seo-data-analysis`
-  → SEO insights from GSC, GA4, Ahrefs
-
-- `competitor-analysis`
-  → SERP and competitor gap analysis
-
-- `content-freshness-audit`
-  → determines whether content is outdated
-
----
-
-## Strategy & Management Skills
-
-- `seo-content-strategy`
-  → content decisions and briefs
-
-- `project-management`
-  → prioritization, backlog management, Airtable-ready execution
-
----
-
-## Writing & Optimization Skills
-
-- `seo-content-writing`
-  → writing SEO content from scratch
-
-- `content-optimization`
-  → improving existing content
-
-- `ctr-optimization`
-  → optimizing titles and meta descriptions
-
----
-
-## Evaluation & Quality Skills
-
-- `seo-quality-check`
-  → EEAT, structure, readability, usefulness
-
-- `fact-check`
-  → validating claims, statistics, and factual accuracy
-
-- `tone-voice-consistency`
-  → validating tone consistency using reference feedback
-
----
-
-# Airtable Project Tracking
-
-The `project-manager` agent and `project-management` skill use a standardized Airtable structure.
-
-Important fields include:
-
-- Page name
-- URL
-- Status
-- Project Type
-- Target query
-- Funnel stage
-- Impressions (90 days)
-- Clicks (90 days)
-- CTR
-- Avg position
-- Hypothesis
-- Recommended action
-- Impact score
-- Effort score
-- Confidence score
-- Urgency score
-- Strategic fit score
-- Success metric
-- Notes
-
-Always preserve field consistency when preparing Airtable-ready outputs.
+Agents perform reasoning.
 
 ---
 
 # Output Expectations
 
-- Be concise and specific
-- Prefer structured outputs:
-  - tables
-  - lists
-  - JSON
-  - Airtable-ready records
-- Avoid generic explanations
-- Prioritize actionable recommendations
-- Clearly explain prioritization logic when managing projects
+Prefer:
+- concise outputs
+- structured tables
+- JSON
+- Airtable-ready records
+- actionable recommendations
+
+Avoid:
+- generic explanations
+- repetitive summaries
+- unnecessary context
 
 ---
 
-# Progressive Context
+# Progressive Disclosure
 
-Load only the context relevant to the task.
+Do not load unnecessary files.
 
-If needed, review:
+Only load:
+- relevant agents
+- required skills
+- necessary references
+- relevant workflows
 
-- `/agents/*`
-- `/skills/*`
-- `/workflows/*`
-- `/skills/*/references/*`
-
-Avoid loading unnecessary references or instructions.
-
-Focused context produces better outputs.
+Focused context improves output quality.
