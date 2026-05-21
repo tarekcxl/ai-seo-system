@@ -1,13 +1,11 @@
 ---
 name: competitor-analysis
-description: Analyze top-ranking competitors for a query to identify patterns, gaps, and opportunities. Use this skill whenever the user wants to understand why competitors rank, what they are doing in common, what is missing from their content, or how to improve an article based on competitor insights. This skill can trigger a workflow to scrape competitor data when needed.
+description: Analyze top-ranking competitors to identify SERP patterns, content gaps, and optimization opportunities. Use this skill when the user wants to improve existing content, generate SEO briefs, or understand why competitors rank higher.
 ---
 
 # Competitor Analysis
 
-A skill for understanding why competitors rank and how to outperform them.
-
-This skill combines scraped competitor data with structured analysis to generate actionable SEO insights.
+Analyze competitors to understand why they rank and how to outperform them.
 
 ---
 
@@ -15,23 +13,12 @@ This skill combines scraped competitor data with structured analysis to generate
 
 Use this skill to:
 
-- analyze top-ranking pages for a query
-- identify common patterns across competitors
-- detect content gaps
-- define differentiation opportunities
-- generate a clear action plan to improve content
-
----
-
-## When to use this skill
-
-Use this skill when the user wants to:
-
-- analyze competitors for a keyword or topic
-- understand why other pages rank higher
-- compare their article against competitors
-- identify what is missing in their content
-- improve an article based on competitor insights
+- analyze top-ranking pages
+- identify SERP patterns
+- compare competitor content against a target article
+- identify content gaps
+- generate SEO briefs
+- support content refresh workflows
 
 ---
 
@@ -40,123 +27,156 @@ Use this skill when the user wants to:
 This skill may receive:
 
 - target query (required)
-- target URL (optional but recommended)
-- competitor data (optional)
+- target URL (recommended)
 
 ---
 
-## How to work
+## Tools
 
-### Step 1: Retrieve competitor data
+Use:
 
-If competitor data is not already provided:
+- Search API
+  → retrieve top organic SERP results
 
-- trigger the `/scrape-competitors` command
-- provide:
-  - target query
-  - target URL (if available)
-
-Wait for the workflow output before continuing.
+- Firecrawl
+  → scrape competitor pages and the target article
 
 ---
 
-### Step 2: Identify patterns
+## Workflow
 
-Analyze competitors to find:
+### Step 1: Search the SERP
 
-- common structure (sections, headings)
-- recurring topics and subtopics
-- content depth and level of detail
-- common formats (guides, lists, comparisons)
+Search Google for the target query.
+
+Collect:
+- top 5 organic results
+- titles
+- URLs
+
+Ignore:
+- ads
+- irrelevant pages
+
+---
+
+### Step 2: Scrape content
+
+Use Firecrawl to scrape:
+- top 5 competitor pages
+- the target article (if provided)
+
+Save outputs to: /workflows/scraped-blogs/
+
+---
+
+### Step 3: Analyze competitors
+
+Identify:
+
+- common sections and structure
+- recurring topics
+- search intent patterns
+- content depth
+- formatting patterns
+- EEAT signals
+- differentiation opportunities
 
 Goal:
-Understand what is required to compete.
+Understand what Google expects for this query.
 
 ---
 
-### Step 3: Identify gaps
-
-Compare competitors with the target content.
+### Step 4: Compare against target content
 
 Find:
-
 - missing sections
-- weak explanations
-- shallow coverage
-- missed angles
+- weak coverage
+- outdated information
+- poor structure
+- weak intent alignment
+- lack of differentiation
 
-Goal:
-Understand what is preventing better ranking.
-
----
-
-### Step 4: Define differentiation
-
-Identify how to outperform competitors:
-
-- clearer explanations
-- better structure
-- more useful examples
-- deeper or more focused content
-
-Goal:
-Do not copy — improve.
+Focus only on meaningful gaps.
 
 ---
 
-### Step 5: Generate action plan
+### Step 5: Generate SEO brief
 
-Translate insights into clear actions:
+Generate a concise SEO brief containing:
 
-- what to add
-- what to improve
-- what to restructure
+- target query
+- search intent
+- recommended angle
+- suggested structure
+- missing sections
+- optimization opportunities
+- differentiation ideas
+- CTR opportunities
+- EEAT recommendations
+
+Save brief to:/workflows/seo-briefs/
+
+
+---
+
+### Step 6: Support execution
+
+The generated brief can be used by:
+
+- `content-writer`
+- `content-optimizer`
+- `content-evaluator`
 
 ---
 
 ## Output structure
 
-Provide:
-
-### Key patterns
-What competitors consistently do
-
-### Competitor strengths
-What they do well
+### SERP patterns
+What top-ranking pages consistently do
 
 ### Content gaps
-What is missing from the target content
+What is missing from the target article
 
 ### Differentiation opportunities
 How to outperform competitors
 
-### Action plan
-Clear, prioritized improvements
+### Recommended structure
+Suggested sections and hierarchy
+
+### SEO brief summary
+High-level overview of the generated brief
+
+### Recommended next actions
+What should happen next
 
 ---
 
 ## Core principles
 
-- Focus on WHY competitors rank, not just WHAT they contain
-- Do not summarize — analyze
-- Do not copy competitors — improve upon them
-- Always translate insights into actions
+- Analyze, don’t summarize
+- Focus on why competitors rank
+- Do not copy competitors
+- Every insight should lead to an action
 
 ---
 
 ## Boundaries
 
-This skill focuses on competitor analysis.
+This skill:
+- analyzes competitors
+- identifies gaps
+- generates SEO briefs
 
-It does not:
-- rewrite content
-- perform SEO data analysis
-- define full content strategy
+This skill does NOT:
+- rewrite full content
+- perform deep SEO data analysis
+- directly optimize content
 
 ---
 
 ## Working style
 
-Be analytical and focused.
+Be analytical, concise, and action-oriented.
 
-Only surface insights that lead to clear improvements.
+Only surface insights that lead to meaningful improvements.

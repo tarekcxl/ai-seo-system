@@ -17,7 +17,12 @@
       "mcp__claude_ai_Ahrefs__site-explorer-metrics",
       "mcp__google-search-console__indexing_coverage",
       "Skill(schedule)",
-      "Skill(schedule:*)"
+      "Skill(schedule:*)",
+      "Bash(curl -s -X POST https://cxlinstitute.app.n8n.cloud/webhook/scrape-competitors -H 'Content-Type: application/json' -d '{ *)",
+      "mcp__firecrawl__firecrawl_search"
+    ],
+    "additionalDirectories": [
+      "/Users/tarekreslan/Documents/Claude Code/SEO Test/workflows/seo-briefs"
     ]
   },
   "mcpServers": {
