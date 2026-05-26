@@ -20,7 +20,11 @@
       "Skill(schedule:*)",
       "Bash(curl -s -X POST https://cxlinstitute.app.n8n.cloud/webhook/scrape-competitors -H 'Content-Type: application/json' -d '{ *)",
       "mcp__firecrawl__firecrawl_search",
-      "mcp__google-search-console__opportunity_finder"
+      "mcp__google-search-console__opportunity_finder",
+      "Bash(python3 -c ' *)",
+      "Bash(find /tmp -name \"*decision*\" -o -name \"*social*\" 2>/dev/null | head -20; ls /tmp/*.md 2>/dev/null | head -10)",
+      "Read(//private/tmp/**)",
+      "mcp__claude_ai_Airtable__list_bases"
     ],
     "additionalDirectories": [
       "/Users/tarekreslan/Documents/Claude Code/SEO Test/workflows/seo-briefs"

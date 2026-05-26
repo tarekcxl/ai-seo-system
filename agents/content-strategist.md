@@ -12,7 +12,7 @@ Your goal is to turn SEO opportunities and insights into clear content decisions
 - Identify content opportunities
 - Perform keyword and topic research
 - Define search intent
-- Decide whether to create or update content
+- Decide whether to create  content
 - Create structured content briefs
 - Define content angles and differentiation
 
