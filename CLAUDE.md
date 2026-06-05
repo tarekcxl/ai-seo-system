@@ -22,6 +22,7 @@ Through:
 - content creation
 - optimization
 - evaluation
+- reporting
 - execution management
 
 ---
@@ -44,15 +45,17 @@ Through:
 
 # Core Rules
 
-- Always prioritize real data over assumptions
+- Prioritize real SEO and performance data over assumptions
 - Avoid generic SEO advice
 - Every insight must lead to a clear action
-- Do not duplicate agent responsibilities
-- Use focused skills instead of broad instructions
+- Do not duplicate responsibilities across agents
+- Use focused skills instead of overloaded instructions
 - Load only relevant context
-- Do not copy competitors — outperform them
 - Preserve factual accuracy and credibility
 - Optimize for both traditional SEO and AI-search systems
+- Do not copy competitors — identify gaps and outperform them
+- Use workflows for execution, not reasoning
+- Use references only when they improve output quality
 
 ---
 
@@ -68,6 +71,7 @@ Default workflow:
 6. `content-writer`
 7. `content-optimizer`
 8. `content-evaluator`
+9. `reporting-agent`
 
 Do not skip evaluation when content quality matters.
 
@@ -76,81 +80,89 @@ Do not skip evaluation when content quality matters.
 # Agent Responsibilities
 
 ## seo-analyst
-SEO and performance analysis.
+Analyze SEO and performance data to identify opportunities, ranking issues, CTR problems, and growth potential.
 
 ## seo-technical-analyst
-Technical SEO audits, crawlability, indexing, rendering, and Core Web Vitals analysis.
+Audit technical SEO issues affecting crawlability, indexing, rendering, internal linking, structured data, and Core Web Vitals.
 
 ## competitor-analyst
-SERP, competitor, and content gap analysis.
+Analyze SERPs, competitor content, and content gaps. Trigger scraping workflows when needed.
 
 ## content-strategist
-Content planning, keyword targeting, and briefs.
+Define keyword targeting, search intent alignment, content priorities, and actionable content briefs.
 
 ## project-manager
-Prioritization, backlog management, and execution tracking.
+Prioritize SEO projects and experiments, manage execution backlog, and organize Airtable-ready project tracking.
 
 ## content-writer
-New SEO/AEO/GEO content creation.
+Create new SEO/AEO/GEO content using briefs, references, tone guidelines, and competitor insights.
 
 ## content-optimizer
-Content updates, CTR improvements, and optimization.
+Improve existing content, update weak sections, improve CTR, and optimize pages using briefs and SEO insights.
 
 ## content-evaluator
-Quality validation, EEAT checks, fact-checking, and tone consistency.
+Validate content quality, EEAT, factual accuracy, hallucination risks, and tone consistency before publishing.
+
+## reporting-agent
+Generate SEO reports, experiment summaries, stakeholder updates, and performance insights from agent outputs.
 
 ---
 
 # Skill Usage
 
-Agents decide when to use skills.
+Agents decide WHEN to use skills.
 
-Skills define how execution happens.
+Skills define HOW execution happens.
 
 Use the most focused skill possible.
+
+Do not overload one skill with unrelated responsibilities.
 
 ---
 
 # Skills
 
 ## seo-data-analysis
-Analyze SEO data from GSC, GA4, and Ahrefs to identify ranking, CTR, and traffic opportunities.
+Analyze GSC, GA4, Ahrefs, and SEO data to identify ranking, CTR, and traffic opportunities.
+
+## technical-seo
+Audit crawlability, indexing, rendering, Core Web Vitals, and technical SEO issues.
 
 ## competitor-analysis
 Analyze SERPs and competitor content to identify ranking patterns, gaps, and optimization opportunities.
 
 ## content-freshness-audit
-Audit existing content freshness and determine whether pages need updates based on recency and SEO relevance.
-
-## technical-seo
-Audit technical SEO issues affecting crawlability, indexing, rendering, and Core Web Vitals.
+Determine whether content is outdated and requires refreshing based on SEO relevance and recency.
 
 ## seo-content-strategy
-Create SEO content strategies, keyword targeting plans, and actionable content briefs.
+Create keyword targeting plans, content priorities, and actionable SEO content briefs.
 
 ## project-management
-Prioritize SEO projects and experiments, manage execution plans, and prepare Airtable-ready tracking updates.
+Prioritize SEO projects and experiments, organize execution plans, and prepare Airtable-ready tracking updates.
 
 ## seo-content-writing
-Write SEO blog content from briefs and keyword strategy for search-intent-focused content creation.
+Write SEO/AEO/GEO blog content from briefs, keyword strategy, and reference materials.
 
 ## content-optimization
-Improve existing content for SEO, clarity, structure, and search intent alignment.
+Improve existing content for clarity, structure, usefulness, rankings, and intent alignment.
 
 ## ctr-optimization
-Optimize titles and meta descriptions to improve CTR from search results.
+Optimize titles and meta descriptions using SERP analysis to improve CTR and differentiation.
 
 ## aeo-geo-optimization
-Optimize content for AI search systems, answer extraction, and retrieval-friendly formatting.
+Optimize content for AI-search systems, answer extraction, retrieval, and AI-generated summaries.
 
 ## seo-quality-check
-Evaluate content quality, EEAT, readability, structure, and usefulness before publishing.
+Evaluate readability, EEAT, structure, usefulness, and overall SEO quality before publishing.
 
 ## fact-check
-Validate factual accuracy, statistics, and claims to reduce hallucinations and credibility risks.
+Validate claims, statistics, references, and factual accuracy to reduce hallucinations and credibility risks.
 
 ## tone-voice-consistency
-Validate tone consistency using reference feedback, tone guidelines, and blog examples.
+Validate tone consistency using reference feedback, tone-of-voice guidelines, and blog examples.
+
+## seo-reporting
+Generate SEO reports, experiment summaries, stakeholder updates, and performance insights from agent outputs.
 
 ---
 
@@ -161,6 +173,8 @@ Use `/workflows` for:
 - Firecrawl extraction
 - n8n automations
 - external SEO pipelines
+- Airtable updates
+- report generation
 
 Workflows execute tasks.
 
@@ -195,3 +209,60 @@ Only load:
 - relevant workflows
 
 Focused context improves output quality.
+
+For large or specialized tasks:
+- use `/skills/*/references`
+- load only the references relevant to the task
+- avoid deep reference chains
+
+---
+
+# Quality Validation
+
+High-quality outputs should validate:
+
+- search intent alignment
+- SEO quality
+- readability
+- differentiation
+- EEAT
+- factual accuracy
+- tone consistency
+- AI-search friendliness
+
+If quality issues are detected:
+→ improve content before finalizing.
+
+---
+
+# Reporting Rules
+
+Reports should:
+- focus on actionable insights
+- prioritize business impact
+- summarize execution status clearly
+- avoid vanity metrics
+- explain what changed, why it matters, and what happens next
+
+Prefer:
+- summaries
+- trends
+- prioritized recommendations
+- experiment outcomes
+- stakeholder-friendly formatting
+
+---
+
+# Context Efficiency
+
+Keep reasoning focused.
+
+Avoid:
+- loading unrelated skills
+- repeating instructions
+- unnecessary verbosity
+- generic SEO explanations
+
+Use progressive disclosure whenever possible.
+
+Load detailed references only when required for the task.
